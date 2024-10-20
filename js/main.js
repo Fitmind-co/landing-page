@@ -1,8 +1,8 @@
-/*-- Barra de Navegación--*/
+/*-- Sección header--*/
 
 
 
-/*-- Sección de inicio --*/
+/*-- Sección de welcome --*/
 
 
 
@@ -10,15 +10,19 @@
 
 
 
+/*-- Sección de Frase--*/
+
+
+
 /*-- Sección de Opiniones--*/
 
 
 
+/*-- Sección de Comunidad--*/
+
+
+
 /*-- Sección de Equipo--*/
-
-
-
-/*-- Sección de Registro--*/
 
 
 

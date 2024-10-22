@@ -1,65 +1,169 @@
 /* Sección Opiniones */
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.opiniones {
-    background-color: #f8f9fa;
-    padding: 50px;
+/* Título de la sección */
+.opiniones .titulo {
+    position: absolute;
+    top: 4810px;
+    left: 0;
+    width: 1920px;
+    height: 99px;
+    font-family: 'DM Sans', sans-serif; /* Tipo de letra DM Sans */
+    font-size: 72px;
+    font-weight: bold; /* Bold se aplica aquí */
+    letter-spacing: -2%;
+    color: #212529;
     text-align: center;
 }
 
-/* Encabezado de Opiniones */
-.encabezado {
-    position: relative;
-    margin-bottom: 50px;
-}
-
-/* Icono de cita detrás del título */
-.vector {
+/* Vector detrás de "clientes" */
+.opiniones .vector {
     position: absolute;
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 150px;
-    height: auto;
-    opacity: 0.1;
+    top: 4794px;
+    left: 1215.08px;
+    width: 331.72px;
+    height: 122.33px;
 }
 
-/* Texto del encabezado */
-.encabezado p {
-    font-size: 24px;
-    font-weight: bold;
-    position: relative;
+/* Jasmine */
+.opiniones .jasmine {
+    position: absolute;
+    top: 4994px;
+    left: 253px;
+    width: 110px;
+    height: 107px;
 }
 
-/* Opiniones individuales */
-.opinion {
-    margin-bottom: 30px;
+.opiniones .jasmine-opinion {
+    position: absolute;
+    top: 4959px;
+    left: 426px;
+    width: 415px;
+    height: 160px;
+    font-family: DM Sans; /* Tipo de letra DM Sans */
+    font-size: 32px;
+    font-weight: 500; /* Medium se aplica aquí */
+    line-height: 28px;
+    color: rgba(21, 20, 57, 0.4); /* hex 151439 40% */
 }
 
-/* Imágenes de los usuarios */
-.opinion .imagen {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-/* Nombre del usuario */
-.opinion .nombre {
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-/* Comentario del usuario */
-.opinion .comentario {
+.opiniones .jasmine-nombre {
+    position: absolute;
+    top: 5120px;
+    left: 424px;
+    width: 180px;
+    height: 26px;
+    font-family: DM Sans; /* Tipo de letra DM Sans */
     font-size: 16px;
-    color: #555;
-    width: 80%;
-    margin: 0 auto;
+    font-weight: bold; /* Bold se aplica aquí */
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #1E0E62; /* hex 1E0E62 */
+}
+
+/* Austin */
+.opiniones .austin {
+    position: absolute;
+    top: 5260px;
+    left: 253px;
+    width: 110px;
+    height: 107px;
+}
+
+.opiniones .austin-opinion {
+    position: absolute;
+    top: 5225px;
+    left: 424px;
+    width: 415px;
+    height: 160px;
+    font-family: DM Sans; /* Tipo de letra DM Sans */
+    font-size: 32px;
+    font-weight: 500; /* Medium se aplica aquí */
+    line-height: 28px;
+    color: rgba(21, 20, 57, 0.4); /* hex 151439 40% */
+}
+
+.opiniones .austin-nombre {
+    position: absolute;
+    top: 5382px;
+    left: 429px;
+    width: 135px;
+    height: 26px;
+    font-family: DM Sans; /* Tipo de letra DM Sans */
+    font-size: 16px;
+    font-weight: bold; /* Bold se aplica aquí */
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #1E0E62; /* hex 1E0E62 */
+}
+
+/* Linda */
+.opiniones .linda {
+    position: absolute;
+    top: 4994px;
+    left: 1105px;
+    width: 110px;
+    height: 107px;
+}
+
+.opiniones .linda-opinion {
+    position: absolute;
+    top: 4959px;
+    left: 1281px;
+    width: 415px;
+    height: 160px;
+    font-family: DM Sans; /* Tipo de letra DM Sans */
+    font-size: 32px;
+    font-weight: 500; /* Medium se aplica aquí */
+    line-height: 28px;
+    color: rgba(21, 20, 57, 0.4); /* hex 151439 40% */
+}
+
+.opiniones .linda-nombre {
+    position: absolute;
+    top: 5120px;
+    left: 1281px;
+    width: 149px;
+    height: 26px;
+    font-family: DM Sans; /* Tipo de letra DM Sans */
+    font-size: 16px;
+    font-weight: bold; /* Bold se aplica aquí */
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #1E0E62; /* hex 1E0E62 */
+}
+
+/* Alex */
+.opiniones .alex {
+    position: absolute;
+    top: 5260px;
+    left: 1100px;
+    width: 110px;
+    height: 107px;
+}
+
+.opiniones .alex-opinion {
+    position: absolute;
+    top: 5225px;
+    left: 1281px;
+    width: 415px;
+    height: 160px;
+    font-family: DM Sans; /* Tipo de letra DM Sans */
+    font-size: 32px;
+    font-weight: 500; /* Medium se aplica aquí */
+    line-height: 28px;
+    color: rgba(21, 20, 57, 0.4); /* hex 151439 40% */
+}
+
+.opiniones .alex-nombre {
+    position: absolute;
+    top: 5382px;
+    left: 1281px;
+    width: 126px;
+    height: 26px;
+    font-family: DM Sans; /* Tipo de letra DM Sans */
+    font-size: 16px;
+    font-weight: bold; /* Bold se aplica aquí */
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #1E0E62; /* hex 1E0E62 */
 }

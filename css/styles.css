@@ -1,0 +1,71 @@
+/* Estilos para welcome */
+.welcome {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.welcome-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Fondo */
+.rectangle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Imagen */
+.group {
+    width: 40%; /* Tamaño ajustable */
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Botón */
+.btn-get-started {
+    background-color: #482be7;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    cursor: pointer;
+}
+
+/* Título */
+.title {
+    font-size: 2.5rem;
+    color: #4446e8;
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.highlight {
+    color: #ff691f;
+}
+
+/* Descripción */
+.description {
+    font-size: 1.2rem;
+    color: #151438;
+    width: 60%;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}

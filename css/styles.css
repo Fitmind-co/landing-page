@@ -31,25 +31,25 @@ h1 {
 }
 
 .funcion {
-    display: flex; /* Alinea imagen y texto horizontalmente */
+    display: flex; 
     background-color: white;
     padding: 10px;
     width: 80%;
-    max-width: 800px; /* Limita el ancho máximo */
+    max-width: 800px; 
     margin: 20px 0;
     align-items: center;
 }
 
 .funcion img {
-    max-width: 300px; /* Ajusta el tamaño de la imagen */
-    margin-right: 20px; /* Espacio entre imagen y texto */
+    max-width: 300px; 
+    margin-right: 20px; 
     left: 90px;
    
 }
 
 .texto-funcion {
     text-align: left;
-    flex: 1; /* Permite que el texto ocupe el resto del espacio */
+    flex: 1; 
 }
 
 .funcion h2 {
@@ -109,4 +109,10 @@ h1 {
     margin:1rem;
     text-align: center;
     padding: 0 20%;
+    
+}
+.imagen-fondo1{
+    background: url(imagenes/vector2.png);
+    background-position: center;
+    background-size: cover;
 }

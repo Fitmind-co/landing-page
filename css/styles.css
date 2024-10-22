@@ -1,169 +1,91 @@
 /* Sección Opiniones */
 
-/* Título de la sección */
-.opiniones .titulo {
-    position: absolute;
-    top: 4810px;
-    left: 0;
-    width: 1920px;
-    height: 99px;
-    font-family: 'DM Sans', sans-serif; /* Tipo de letra DM Sans */
-    font-size: 72px;
-    font-weight: bold; /* Bold se aplica aquí */
-    letter-spacing: -2%;
-    color: #212529;
+/* Estilos para la sección de Opiniones */
+.opiniones {
+    position: relative;
+    margin-top: 100px;
+    padding: 50px 0;
     text-align: center;
 }
 
-/* Vector detrás de "clientes" */
-.opiniones .vector {
+/* Vector detrás del título */
+.vector {
     position: absolute;
-    top: 4794px;
-    left: 1215.08px;
+    top: 24px;
+    left: 64%;
+    transform: translateX(33%, 0);
     width: 331.72px;
     height: 122.33px;
+    z-index: -1;
 }
 
-/* Jasmine */
-.opiniones .jasmine {
-    position: absolute;
-    top: 4994px;
-    left: 253px;
+/* Estilos para el título */
+.titulo {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    color: #212529;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Contenedor de opiniones en columnas */
+.contenedor-opiniones {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Opiniones individuales */
+.opinion {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la imagen en cada opinión */
+.opinion img {
     width: 110px;
     height: 107px;
+    border-radius: 50%;
+    margin-right: 30px;
 }
 
-.opiniones .jasmine-opinion {
-    position: absolute;
-    top: 4959px;
-    left: 426px;
-    width: 415px;
-    height: 160px;
-    font-family: DM Sans; /* Tipo de letra DM Sans */
-    font-size: 32px;
-    font-weight: 500; /* Medium se aplica aquí */
+/* Estilos para el texto de la opinión */
+.opinion-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para los comentarios */
+.comentario {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
     line-height: 28px;
-    color: rgba(21, 20, 57, 0.4); /* hex 151439 40% */
+    color: rgba(21, 20, 57, 0.6);
+    margin-bottom: 10px;
 }
 
-.opiniones .jasmine-nombre {
-    position: absolute;
-    top: 5120px;
-    left: 424px;
-    width: 180px;
-    height: 26px;
-    font-family: DM Sans; /* Tipo de letra DM Sans */
+/* Estilos para los nombres */
+.nombre {
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
-    font-weight: bold; /* Bold se aplica aquí */
-    line-height: 26px;
+    font-weight: bold;
     letter-spacing: 2px;
-    color: #1E0E62; /* hex 1E0E62 */
-}
-
-/* Austin */
-.opiniones .austin {
-    position: absolute;
-    top: 5260px;
-    left: 253px;
-    width: 110px;
-    height: 107px;
-}
-
-.opiniones .austin-opinion {
-    position: absolute;
-    top: 5225px;
-    left: 424px;
-    width: 415px;
-    height: 160px;
-    font-family: DM Sans; /* Tipo de letra DM Sans */
-    font-size: 32px;
-    font-weight: 500; /* Medium se aplica aquí */
-    line-height: 28px;
-    color: rgba(21, 20, 57, 0.4); /* hex 151439 40% */
-}
-
-.opiniones .austin-nombre {
-    position: absolute;
-    top: 5382px;
-    left: 429px;
-    width: 135px;
-    height: 26px;
-    font-family: DM Sans; /* Tipo de letra DM Sans */
-    font-size: 16px;
-    font-weight: bold; /* Bold se aplica aquí */
     line-height: 26px;
-    letter-spacing: 2px;
-    color: #1E0E62; /* hex 1E0E62 */
+    color: #1E0E62;
 }
 
-/* Linda */
-.opiniones .linda {
-    position: absolute;
-    top: 4994px;
-    left: 1105px;
-    width: 110px;
-    height: 107px;
-}
-
-.opiniones .linda-opinion {
-    position: absolute;
-    top: 4959px;
-    left: 1281px;
-    width: 415px;
-    height: 160px;
-    font-family: DM Sans; /* Tipo de letra DM Sans */
-    font-size: 32px;
-    font-weight: 500; /* Medium se aplica aquí */
-    line-height: 28px;
-    color: rgba(21, 20, 57, 0.4); /* hex 151439 40% */
-}
-
-.opiniones .linda-nombre {
-    position: absolute;
-    top: 5120px;
-    left: 1281px;
-    width: 149px;
-    height: 26px;
-    font-family: DM Sans; /* Tipo de letra DM Sans */
-    font-size: 16px;
-    font-weight: bold; /* Bold se aplica aquí */
-    line-height: 26px;
-    letter-spacing: 2px;
-    color: #1E0E62; /* hex 1E0E62 */
-}
-
-/* Alex */
-.opiniones .alex {
-    position: absolute;
-    top: 5260px;
-    left: 1100px;
-    width: 110px;
-    height: 107px;
-}
-
-.opiniones .alex-opinion {
-    position: absolute;
-    top: 5225px;
-    left: 1281px;
-    width: 415px;
-    height: 160px;
-    font-family: DM Sans; /* Tipo de letra DM Sans */
-    font-size: 32px;
-    font-weight: 500; /* Medium se aplica aquí */
-    line-height: 28px;
-    color: rgba(21, 20, 57, 0.4); /* hex 151439 40% */
-}
-
-.opiniones .alex-nombre {
-    position: absolute;
-    top: 5382px;
-    left: 1281px;
-    width: 126px;
-    height: 26px;
-    font-family: DM Sans; /* Tipo de letra DM Sans */
-    font-size: 16px;
-    font-weight: bold; /* Bold se aplica aquí */
-    line-height: 26px;
-    letter-spacing: 2px;
-    color: #1E0E62; /* hex 1E0E62 */
+/* Ajuste para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .contenedor-opiniones {
+        flex-direction: column;
+    }
+    .opinion {
+        justify-content: center;
+    }
 }

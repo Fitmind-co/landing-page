@@ -1,0 +1,83 @@
+/*Sección Comunidad*/
+
+.comunidad-box{
+    width: 100%; 
+    height: 591px;
+    position: relative;
+}
+
+.comunidad-box .comunidad{
+    position: fixed;
+    width: 100%;
+    height: 591px;
+    top: 0;
+    left: 0;
+}
+
+.comunidad-box .comunidad-group{
+    position: relative;
+    width:100%;
+    height: 591px;
+}
+
+.comunidad-box .comunidad-fondo{
+    position: absolute;
+    width: 100%;  
+    height: 591px; 
+    top: 0;
+    left: 0;
+}
+
+.comunidad-box .comunidad-titulo{
+    position: absolute;
+    width: 1360px;
+    top: 100px;
+    left: 0px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.comunidad-box .comunidad-subtitulo{
+    position: absolute;
+    width: 850px;
+    top: 224px;
+    left: 254px;
+    font-family: "DM Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 2.00px;
+    line-height: 32px;
+}
+
+.comunidad-box .comunidad-boton{
+    position: absolute;
+    width: 280px;
+    height: 78px;
+    background-color: #a8d74e;
+    border-radius: 100px;
+    border: none;
+    font-family: "DM Sans-Medium", Helvetica, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    line-height: 78px;
+    cursor: pointer;
+    top: 425px;
+    left: 539px;
+}
+
+.comunidad-box .comunidad-imagen{
+    position: absolute;
+    width: 678px;
+    height: 529px;
+    top: 21px;
+    left: 1205px;
+}

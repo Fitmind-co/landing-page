@@ -11,8 +11,8 @@
 /* Vector detrás del título */
 .vector {
     position: absolute;
-    top: 24px;
-    left: 64%;
+    top: 25px;
+    left: 65%;
     transform: translateX(33%, 0);
     width: 331.72px;
     height: 122.33px;
@@ -21,7 +21,7 @@
 
 /* Estilos para el título */
 .titulo {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", Helvetica, sans-serif;;
     font-size: 72px;
     font-weight: bold;
     letter-spacing: -0.02em;
@@ -63,7 +63,8 @@
 
 /* Estilos para los comentarios */
 .comentario {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", Helvetica, sans-serif;
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     color: rgba(21, 20, 57, 0.6);
@@ -72,7 +73,7 @@
 
 /* Estilos para los nombres */
 .nombre {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 2px;

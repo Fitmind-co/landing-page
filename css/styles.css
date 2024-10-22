@@ -22,16 +22,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 80px; /* Bajamos un poco el texto */
+    padding-top: 80px;
 }
 
 /* Título */
 .title {
+    font-family: "DM Sans", Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 3.2rem;
     color: #4446e8;
-    font-family: 'Poppins', sans-serif;
     line-height: 1.2;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .highlight-habits {
@@ -43,14 +45,15 @@
 }
 
 .highlight-fitmind {
-    color: #A0C77D;
+    color: #A8D74E;
     font-weight: bold;
 }
 
 /* Descripción */
 .description {
+    font-family: "DM Sans", Helvetica, sans-serif;
     font-size: 1.2rem;
-    color: #333;
+    color: rgba(21, 20, 57, 0.6);
     margin-bottom: 20px;
     opacity: 0.85;
     text-align: center;
@@ -73,10 +76,10 @@
 }
 
 .btn-get-started:hover {
-    background-color: #3721b0; /* Cambiar color de fondo */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra al hacer hover */
-    transform: translateY(-2px); /* Efecto de elevación */
-    color: #ffffff; /* Cambiar color de texto al hacer hover */
+    background-color: #3721b0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    color: #ffffff;
 }
 
 /* Contenedor de la imagen */

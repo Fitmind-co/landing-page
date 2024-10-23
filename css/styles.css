@@ -999,3 +999,251 @@ h3{
     height: 100%;
     width: 100%;
 }
+.box {
+    width: 1920px;
+    height: 1092px;
+  }
+  
+  .box .preguntas-frecuentes {
+    position: fixed;
+    width: 1942px;
+    height: 1092px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .overlap-group {
+    position: relative;
+    width: 1920px;
+    height: 1092px;
+    background-image: url(./img/rectangle-12.svg);
+    background-size: 100% 100%;
+  }
+  
+  .box .overlap {
+    position: absolute;
+    width: 794px;
+    height: 225px;
+    top: 126px;
+    left: 155px;
+  }
+  
+  .box .vector {
+    position: absolute;
+    width: 452px;
+    height: 89px;
+    top: 100px;
+    left: 0;
+  }
+  
+  .box .title {
+    width: 778px;
+    top: 0;
+    left: 16px;
+    color: #212529;
+    font-size: 72px;
+    letter-spacing: -1.44px;
+    line-height: normal;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .box .divider {
+    display: flex;
+    flex-direction: column;
+    width: 858px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 1.5px 0px;
+    position: absolute;
+    top: 505px;
+    left: 949px;
+    background-color: #d7ddf0;
+  }
+  
+  .box .div {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    margin-bottom: -1.00px;
+  }
+  
+  .box .img {
+    position: absolute;
+    width: 858px;
+    height: 3px;
+    top: 853px;
+    left: 949px;
+  }
+  
+  .box .divider-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 858px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 1.5px 0px;
+    position: absolute;
+    top: 662px;
+    left: 949px;
+    background-color: #d7ddf0;
+  }
+  
+  .box .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 858px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 1.5px 0px;
+    position: absolute;
+    top: 280px;
+    left: 949px;
+    background-color: #d7ddf0;
+  }
+  
+  .box .text {
+    top: 351px;
+    position: absolute;
+    width: 858px;
+    left: 949px;
+    font-family: "DM Sans-9ptRegular", Helvetica;
+    font-weight: 400;
+    color: #3c3c43d9;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .box .text-wrapper {
+    top: 733px;
+    position: absolute;
+    width: 858px;
+    left: 949px;
+    font-family: "DM Sans-9ptRegular", Helvetica;
+    font-weight: 400;
+    color: #3c3c43d9;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .box .p {
+    top: 576px;
+    position: absolute;
+    width: 858px;
+    left: 949px;
+    font-family: "DM Sans-9ptRegular", Helvetica;
+    font-weight: 400;
+    color: #3c3c43d9;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .box .text-2 {
+    top: 924px;
+    position: absolute;
+    width: 858px;
+    left: 949px;
+    font-family: "DM Sans-9ptRegular", Helvetica;
+    font-weight: 400;
+    color: #3c3c43d9;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .box .text-3 {
+    top: 161px;
+    position: absolute;
+    width: 858px;
+    left: 949px;
+    font-family: "DM Sans-9ptRegular", Helvetica;
+    font-weight: 400;
+    color: #3c3c43d9;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .box .title-2 {
+    width: 818px;
+    height: 29px;
+    top: 306px;
+    left: 949px;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .box .title-3 {
+    width: 818px;
+    height: 29px;
+    top: 688px;
+    left: 949px;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .box .title-4 {
+    width: 818px;
+    height: 29px;
+    top: 531px;
+    left: 949px;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .box .title-5 {
+    width: 818px;
+    height: 29px;
+    top: 879px;
+    left: 949px;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .box .title-6 {
+    width: 818px;
+    height: 29px;
+    top: 116px;
+    left: 949px;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .box .rb {
+    position: absolute;
+    width: 892px;
+    height: 586px;
+    top: 351px;
+    left: 45px;
+    object-fit: cover;
+  }

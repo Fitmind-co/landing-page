@@ -1,4 +1,3 @@
-
 /*Seccion del header*/
 .navbar{
     padding: 1rem;
@@ -13,28 +12,8 @@
 .navbar .btn-outline-primary:hover{
     background-color: blue;
 }
+
 /*Sección de welcome*/
-
-
-/*Sección de Funcionalidades*/
-
-
-/*Sección de Frase*/
-
-
-/*Sección de Opiniones*/
-
-
-/*Sección de Comunidad*/
-
-
-/*Sección de Equipo*/
-
-
-/*Sección Footer*/
-
-
-/* Estilos para welcome */
 .welcome {
     width: 100%;
     height: 100vh;
@@ -160,3 +139,23 @@
         justify-content: center;
     }
 }
+/*Sección de Funcionalidades*/
+
+
+/*Sección de Frase*/
+
+
+/*Sección de Opiniones*/
+
+
+/*Sección de Comunidad*/
+
+
+/*Sección de Equipo*/
+
+
+/*Sección Footer*/
+
+
+/* Estilos para welcome */
+

@@ -1248,7 +1248,8 @@ h3{
     left: 45px;
     object-fit: cover;
   }
-  /*Sección Comunidad*/
+
+  /*Sección Footer*/
 
 .footer-box{
     width: 100%; 
@@ -1257,7 +1258,6 @@ h3{
 }
 
 .footer-box .footer-footer{
-    position: fixed;
     width: 100%;
     height: 560px;
     top: 0;
@@ -1381,7 +1381,7 @@ h3{
 }
 
 .footer-box .footer-overlaps{
-    position: absolute;
+    position: static;
     width: 250px;
     height: 42px;
     top: 379px;
@@ -1389,10 +1389,10 @@ h3{
 }
 
 .footer-box .footer-siguenos{
-    position: absolute;
+    position: relative;
     width: 237px;
-    top: 0;
-    left: 0;
+    top:  399px;
+    left: 150px;
     font-family: "DM Sans-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
@@ -1402,7 +1402,7 @@ h3{
 }
 
 .footer-box .footer-facebook{
-    position: fixed;
+    position: relative;
     width: 26px;
     height: 26px;
     top: 379px;
@@ -1410,7 +1410,7 @@ h3{
 }
 
 .footer-box .footer-instagram{
-    position: fixed;
+    position: relative;
     width: 26px;
     height: 26px;
     top: 379px;
@@ -1418,7 +1418,7 @@ h3{
 }
 
 .footer-box .footer-twitter{
-    position: fixed;
+    position: relative;
     width: 26px;
     height: 26px;
     top: 379px;

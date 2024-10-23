@@ -5,15 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: 'DM Sans';
+body{
+    font-family: "DM Sans-Regular";
+}
+.funcionalidades{
+    font-family: "DM Sans-Regular";
     background-color: white;
     padding: 20px;
     text-align: center;
 }
 
-h1 {
+.funcionalidades h2 {
+    font-family: "DM Sans-Regular";
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }

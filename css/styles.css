@@ -1,22 +1,21 @@
-
 /*Seccion funcionalidades*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: "DM Sans-Regular";
+
+body {
+    font-family: 'DM Sans-Regular';
 }
 .funcionalidades{
-    font-family: "DM Sans-Regular";
-    background-color: white;
     padding: 20px;
+    font-family: 'DM Sans-Regular';
+    background-color: white;
     text-align: center;
 }
 
-.funcionalidades h2 {
-    font-family: "DM Sans-Regular";
+h1 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }

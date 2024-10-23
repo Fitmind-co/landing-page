@@ -1248,3 +1248,244 @@ h3{
     left: 45px;
     object-fit: cover;
   }
+  /*Sección Comunidad*/
+
+.footer-box{
+    width: 100%; 
+    height: 560px;
+    position: relative;
+}
+
+.footer-box .footer-footer{
+    position: fixed;
+    width: 100%;
+    height: 560px;
+    top: 0;
+    left: 0;
+    background-color: #2F1893;
+}
+
+.footer-box .footer-group{
+    position: relative;
+    width: 100%;
+    height: 560px;
+}
+
+.footer-box .footer-licencia{
+    position: absolute;
+    top: 453px;
+    left: 805px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+}
+
+.footer-box .footer-ejercicios{
+    position: absolute;
+    width: 213px;
+    top: 89px;
+    left: 160px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 2.00px;
+    line-height: 26px;
+}
+
+.footer-box .footer-nutricion{
+    position: absolute;
+    width: 208px;
+    top: 89px;
+    left: 466px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 2.00px;
+    line-height: 26px;
+}
+
+.footer-box .footer-educacion{
+    position: absolute;
+    width: 232px;
+    top: 89px;
+    left: 787px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 2.00px;
+    line-height: 26px;
+}
+
+.footer-box .footer-bienestar{
+    position: absolute;
+    width: 382px;
+    top: 89px;
+    left: 1113px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 2.00px;
+    line-height: 26px;
+}
+
+.footer-box .footer-comunidad{
+    position: absolute;
+    width: 259px;
+    top: 89px;
+    left: 1559px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 2.00px;
+    line-height: 26px;
+}
+
+.footer-box .footer-divisor{
+    position: absolute;
+    width: 1605px;
+    height: 2px;
+    top: 177px;
+    left: 159px;
+}
+
+.footer-box .footer-logo{
+    position: absolute;
+    width: 57px;
+    height: 115px;
+    top: 238px;
+    left: 171px;
+    object-fit: cover;
+}
+
+.footer-box .footer-fitmind{
+    position: absolute;
+    width: 290px;
+    top: 249px;
+    left: 258px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer-box .footer-overlaps{
+    position: absolute;
+    width: 250px;
+    height: 42px;
+    top: 379px;
+    left: 170px;
+}
+
+.footer-box .footer-siguenos{
+    position: absolute;
+    width: 237px;
+    top: 0;
+    left: 0;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.footer-box .footer-facebook{
+    position: fixed;
+    width: 26px;
+    height: 26px;
+    top: 379px;
+    left: 365px;
+}
+
+.footer-box .footer-instagram{
+    position: fixed;
+    width: 26px;
+    height: 26px;
+    top: 379px;
+    left: 405px;
+}
+
+.footer-box .footer-twitter{
+    position: fixed;
+    width: 26px;
+    height: 26px;
+    top: 379px;
+    left: 445px;
+}
+
+.footer-box .footer-normas{
+    position: absolute;
+    width: 237px;
+    top: 287px;
+    left: 650px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.footer-box .footer-faq{
+    position: absolute;
+    width: 84px;
+    top: 287px;
+    left: 937px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.footer-box .footer-politica{
+    position: absolute;
+    width: 783px;
+    top: 287px;
+    left: 1071px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.footer-box .footer-terminos{
+    position: absolute;
+    width: 524px;
+    top: 287px;
+    left: 1330px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.footer-box .footer-soporte{
+    position: absolute;
+    width: 247px;
+    top: 287px;
+    left: 1607px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+}

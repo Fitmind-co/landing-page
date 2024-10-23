@@ -388,7 +388,7 @@ h1 {
 }
 
 /* Vector detrás del título */
-.vector {
+.opiniones-vector {
     position: absolute;
     top: 25px;
     left: 65%;
@@ -399,7 +399,7 @@ h1 {
 }
 
 /* Estilos para el título */
-.titulo {
+.opiniones-titulo {
     font-family: "DM Sans", Helvetica, sans-serif;;
     font-size: 72px;
     font-weight: bold;

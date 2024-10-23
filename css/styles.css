@@ -950,4 +950,52 @@ h1 {
     height: 529px;
     top: 21px;
     left: 1205px;
+}/*Seccion equipo*/
+body{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'DM Sans';
+}
+.highlight {
+    color: #51C26D;
+    font-weight: bold;
+}
+h3{
+   padding:0 20%;
+   margin-top: 35px;
+   color: gray;
+}
+.equipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px ;
+}
+.integrante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 10px;
+}
+.integrante img{
+    width: 70%;
+    height: 70%;
+}
+.integrante p{
+    margin: 5px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes img{
+    height: 100%;
+    width: 100%;
+}
+.redes a{
+    margin:5px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
 }

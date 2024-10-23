@@ -277,6 +277,7 @@ h1 {
     font-weight: 500;
     color: #ffffff;
     font-size: 24px;
+<<<<<<< HEAD
     letter-spacing: 0;
     line-height: normal;
 }
@@ -562,3 +563,113 @@ h1 {
         top: 10%; /* Adjusted for mobile */
     }
 }
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .box .overlap-2 {
+    position: absolute;
+    width: 776px;
+    height: 581px;
+    top: 312px;
+    left: 760px;
+    border-radius: 10px;
+  }
+  
+  .box .text-2 {
+    width: 691px;
+    height: 106px;
+    left: 40px;
+    position: absolute;
+    top: 231px;
+  }
+  
+  .box .unlimited-recipes-p {
+    position: absolute;
+    width: 685px;
+    top: 68px;
+    left: 0;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #15143866;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .box .starter {
+    position: absolute;
+    width: 456px;
+    top: 0;
+    left: 0;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e0d62;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .box .element {
+    position: absolute;
+    width: 179px;
+    top: 0;
+    left: 506px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e0d62;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .box .people-running-park {
+    position: absolute;
+    width: 770px;
+    height: 207px;
+    top: 3px;
+    left: 3px;
+    object-fit: cover;
+  }
+  
+  .box .rectangle-2 {
+    width: 776px;
+    position: absolute;
+    height: 581px;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ebeaed;
+  }
+  
+  .box .sign-up-wrapper {
+    position: absolute;
+    width: 460px;
+    height: 85px;
+    top: 463px;
+    left: 161px;
+    background-color: #482be7;
+    border-radius: 100px;
+  }
+  
+  .box .sign-up-2 {
+    position: absolute;
+    height: 26px;
+    top: 30px;
+    left: 50px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+>>>>>>> feature/planes

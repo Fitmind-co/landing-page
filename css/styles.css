@@ -1,0 +1,34 @@
+/*Seccion del header*/
+.navbar{
+    padding: 1rem;
+}
+.navbar .btn-outline-primary {
+    background-color: #b0e748;
+    border-color: #b0e748;
+    color: white;
+    border-radius: 20px;
+
+}
+.navbar .btn-outline-primary:hover{
+    background-color: blue;
+}
+/*Sección de welcome*/
+
+
+/*Sección de Funcionalidades*/
+
+
+/*Sección de Frase*/
+
+
+/*Sección de Opiniones*/
+
+
+/*Sección de Comunidad*/
+
+
+/*Sección de Equipo*/
+
+
+/*Sección Footer*/
+

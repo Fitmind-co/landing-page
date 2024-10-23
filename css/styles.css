@@ -25,16 +25,18 @@
     max-width: 60%;
     text-align: left;
     position: relative;
+    z-index: 1;
 }
 
 .title {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
-    font-size: 72px; /* Tamaño del título según Figma */
+    font-size: 72px;
     letter-spacing: -0.02em;
     color: #212529;
     margin-bottom: 20px;
-    text-align: center; /* Centrado */
+    text-align: center;
+    z-index: 1;
 }
 
 .story-text {
@@ -55,13 +57,14 @@
 }
 
 .quote-left-top {
-    top: -10px;
-    left: 10px;
+    top: 100px;
+    left: -50px;
 }
 
 .quote-left-bottom {
-    bottom: -10px;
+    bottom: 30px;
     left: 10px;
+    margin-left: 800px;
 }
 
 .image-container {
@@ -82,20 +85,32 @@
     font-size: 14px;
     color: rgba(21, 20, 57, 0.4);
     letter-spacing: 1px;
-    margin-top: 20px; /* Agregado margen superior para separar el nombre de la imagen */
-    text-align: center; /* Centrado */
+    margin-top: 20px; 
+    text-align: center;
 }
 
 .lines-image {
     position: absolute;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    width: 1100px;
-    height: 422px;
-    max-width: 100%;
-    object-fit: cover;
+    top: 150px;
+    bottom: 50px;
+    right: 40px;
+    left: 80px;
+    width: 950px;
+    height: 470px;
+    z-index: 0;
 }
+
+/* Vector detrás del título */
+.vector {
+    position: absolute;
+    top: 10px;
+    left: 48%;
+    transform: translateX(-50%);
+    width: 331.72px;
+    height: 122.33px;
+    z-index: 0;
+}
+
 
 /* Media Queries para Responsividad */
 @media (max-width: 768px) {

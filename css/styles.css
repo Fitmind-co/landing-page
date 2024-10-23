@@ -1,0 +1,258 @@
+.box {
+    width: 1920px;
+    height: 983px;
+  }
+  
+  .box .planes-precio {
+    position: fixed;
+    width: 1924px;
+    height: 983px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .overlap-group {
+    position: relative;
+    width: 1920px;
+    height: 983px;
+    background-color: #ffffff;
+  }
+  
+  .box .overlap {
+    position: absolute;
+    width: 1920px;
+    height: 115px;
+    top: 75px;
+    left: 0;
+  }
+  
+  .box .vector {
+    position: absolute;
+    width: 277px;
+    height: 115px;
+    top: 0;
+    left: 1152px;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    width: 1920px;
+    top: 5px;
+    left: 0;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #212529;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: -1.44px;
+    line-height: normal;
+  }
+  
+  .box .start-with-day-fr {
+    position: absolute;
+    width: 1167px;
+    top: 203px;
+    left: 377px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #15143866;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .box .div {
+    position: absolute;
+    width: 370px;
+    height: 581px;
+    top: 312px;
+    left: 363px;
+    border-radius: 10px;
+  }
+  
+  .box .text {
+    width: 288px;
+    height: 80px;
+    left: 43px;
+    position: absolute;
+    top: 231px;
+  }
+  
+  .box .unlock-powerful-time {
+    position: absolute;
+    width: 283px;
+    top: 68px;
+    left: 1px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #15143866;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .box .professional {
+    position: absolute;
+    width: 168px;
+    top: 0;
+    left: 0;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e0d62;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .box .young-fitness-woman {
+    position: absolute;
+    width: 364px;
+    height: 207px;
+    top: 3px;
+    left: 3px;
+    object-fit: cover;
+  }
+  
+  .box .rectangle {
+    width: 370px;
+    position: absolute;
+    height: 581px;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ebeaed;
+  }
+  
+  .box .big-fill {
+    position: absolute;
+    width: 240px;
+    height: 70px;
+    top: 471px;
+    left: 47px;
+    background-color: #a8d74e;
+    border-radius: 100px;
+  }
+  
+  .box .sign-up {
+    position: absolute;
+    height: 26px;
+    top: 22px;
+    left: 64px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .box .overlap-2 {
+    position: absolute;
+    width: 776px;
+    height: 581px;
+    top: 312px;
+    left: 760px;
+    border-radius: 10px;
+  }
+  
+  .box .text-2 {
+    width: 691px;
+    height: 106px;
+    left: 40px;
+    position: absolute;
+    top: 231px;
+  }
+  
+  .box .unlimited-recipes-p {
+    position: absolute;
+    width: 685px;
+    top: 68px;
+    left: 0;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #15143866;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .box .starter {
+    position: absolute;
+    width: 456px;
+    top: 0;
+    left: 0;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e0d62;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .box .element {
+    position: absolute;
+    width: 179px;
+    top: 0;
+    left: 506px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e0d62;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .box .people-running-park {
+    position: absolute;
+    width: 770px;
+    height: 207px;
+    top: 3px;
+    left: 3px;
+    object-fit: cover;
+  }
+  
+  .box .rectangle-2 {
+    width: 776px;
+    position: absolute;
+    height: 581px;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ebeaed;
+  }
+  
+  .box .sign-up-wrapper {
+    position: absolute;
+    width: 460px;
+    height: 85px;
+    top: 463px;
+    left: 161px;
+    background-color: #482be7;
+    border-radius: 100px;
+  }
+  
+  .box .sign-up-2 {
+    position: absolute;
+    height: 26px;
+    top: 30px;
+    left: 50px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }

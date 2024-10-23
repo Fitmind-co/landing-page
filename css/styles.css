@@ -1,0 +1,301 @@
+.box {
+    width: 1920px;
+    height: 910px;
+  }
+  
+  .box .contacto {
+    position: fixed;
+    width: 1932px;
+    height: 910px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .overlap {
+    position: relative;
+    width: 1920px;
+    height: 910px;
+    background-image: url(./img/rectangle-12.svg);
+    background-size: 100% 100%;
+  }
+  
+  .box .overlap-group {
+    position: absolute;
+    width: 684px;
+    height: 96px;
+    top: 108px;
+    left: 160px;
+  }
+  
+  .box .vector {
+    position: absolute;
+    width: 504px;
+    height: 88px;
+    top: 8px;
+    left: 0;
+  }
+  
+  .box .get-in-touch {
+    position: absolute;
+    width: 671px;
+    top: 0;
+    left: 13px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #212529;
+    font-size: 72px;
+    letter-spacing: -1.44px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .box .contact-form {
+    position: absolute;
+    width: 774px;
+    height: 760px;
+    top: 71px;
+    left: 1058px;
+  }
+  
+  .box .div {
+    position: relative;
+    width: 768px;
+    height: 760px;
+    border-radius: 10px;
+  }
+  
+  .box .placeholder {
+    position: absolute;
+    width: 768px;
+    height: 760px;
+    top: 0;
+    left: 0;
+    background-color: #cbcbcb;
+    border-radius: 10px;
+    opacity: 0.3;
+  }
+  
+  .box .middle-fill {
+    position: absolute;
+    width: 147px;
+    height: 69px;
+    top: 602px;
+    left: 539px;
+    background-color: #a8d74e;
+    border-radius: 100px;
+  }
+  
+  .box .sign-up {
+    position: absolute;
+    height: 26px;
+    top: 22px;
+    left: 40px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .box .middle-dark-outline {
+    position: absolute;
+    width: 441px;
+    height: 69px;
+    top: 602px;
+    left: 82px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: #eaeaed;
+  }
+  
+  .box .your-email {
+    position: absolute;
+    height: 26px;
+    top: 20px;
+    left: 22px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #15143866;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .box .name {
+    position: absolute;
+    width: 146px;
+    top: 558px;
+    left: 82px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #1e0d62;
+    font-size: 24px;
+    letter-spacing: 2.00px;
+    line-height: 26px;
+  }
+  
+  .box .message {
+    position: absolute;
+    width: 131px;
+    top: 231px;
+    left: 82px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #1e0d62;
+    font-size: 24px;
+    letter-spacing: 2.00px;
+    line-height: 26px;
+  }
+  
+  .box .your-email-wrapper {
+    height: 69px;
+    top: 111px;
+    border-radius: 100px;
+    position: absolute;
+    width: 605px;
+    left: 82px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #eaeaed;
+  }
+  
+  .box .div-wrapper {
+    height: 235px;
+    top: 275px;
+    border-radius: 10px;
+    position: absolute;
+    width: 605px;
+    left: 82px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #eaeaed;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    width: 240px;
+    top: 11px;
+    left: 17px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #15143866;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .box .e-mail {
+    position: absolute;
+    width: 103px;
+    top: 66px;
+    left: 82px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #1e0d62;
+    font-size: 24px;
+    letter-spacing: 2.00px;
+    line-height: 26px;
+  }
+  
+  .box .direccion {
+    position: absolute;
+    width: 262px;
+    top: 647px;
+    left: 187px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #15143866;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .box .find-us-on-map {
+    position: absolute;
+    width: 294px;
+    top: 567px;
+    left: 186px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #212529;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .box .imagen {
+    position: absolute;
+    width: 375px;
+    height: 252px;
+    top: 562px;
+    left: 492px;
+    object-fit: cover;
+  }
+  
+  .box .line {
+    position: absolute;
+    width: 684px;
+    height: 2px;
+    top: 510px;
+    left: 184px;
+  }
+  
+  .box .info {
+    position: absolute;
+    width: 491px;
+    top: 438px;
+    left: 248px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e0d62;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .box .element {
+    position: absolute;
+    width: 491px;
+    top: 375px;
+    left: 248px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e0d62;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .box .we-appreciate-each-c {
+    position: absolute;
+    width: 658px;
+    top: 241px;
+    left: 186px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #15143866;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .box .markunread {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 440px;
+    left: 198px;
+  }
+  
+  .box .call {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 375px;
+    left: 198px;
+  }

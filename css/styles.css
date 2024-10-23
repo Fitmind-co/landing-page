@@ -618,7 +618,6 @@ h1 {
   }
   
   .box .planes-precio {
-    position: fixed;
     width: 1924px;
     height: 983px;
     top: 0;
@@ -633,7 +632,7 @@ h1 {
   }
   
   .box .overlap {
-    position: absolute;
+
     width: 1920px;
     height: 115px;
     top: 75px;
@@ -641,7 +640,7 @@ h1 {
   }
   
   .box .vector {
-    position: absolute;
+
     width: 277px;
     height: 115px;
     top: 0;

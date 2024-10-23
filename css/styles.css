@@ -140,7 +140,126 @@
     }
 }
 /*Sección de Funcionalidades*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: "DM Sans-Medium", Helvetica;
+}
+.funcionalidades{
+    padding: 20px;
+    font-family: "DM Sans-Medium", Helvetica;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: "DM Sans-Medium", Helvetica;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.highlight {
+    color: #51C26D;
+    font-weight: bold;
+}
+
+.funciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.funcion {
+    display: flex; 
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    max-width: 800px; 
+    margin: 20px 0;
+    align-items: center;
+}
+
+.funcion img {
+    max-width: 300px; 
+    margin-right: 20px; 
+    left: 90px;
+   
+}
+
+.texto-funcion {
+    text-align: left;
+    flex: 1; 
+}
+
+.funcion h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2 rem;
+}
+
+.texto-funcion p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+
+}
+
+.extra-funciones {
+    margin-top: 2rem;
+}
+
+.extra-funciones ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 0 15%;
+}
+
+.extra-funciones li {
+    align-items: center;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.extra-funciones p {
+    color:gray;
+    text-align: center;
+    width: 70%;
+    margin:10px;
+}
+
+.extra-funciones li img {
+    margin-right: 10px;
+    width: 50px;
+    height:50px;
+}
+.texto h2{
+    margin: 1rem;
+}
+.texto p{
+    margin:1rem;
+    text-align: center;
+    padding: 0 20%;
+    
+}
+.imagen-fondo1{
+    background: url(imagenes/vector2.png);
+    background-position: center;
+    background-size: cover;
+}
 
 /*Sección de Frase*/
 

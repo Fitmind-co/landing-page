@@ -324,3 +324,96 @@ h1 {
     transform: scale(1.02);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
+
+/* Sección Opiniones */
+
+/* Estilos para la sección de Opiniones */
+.opiniones {
+    position: relative;
+    margin-top: 100px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Vector detrás del título */
+.vector {
+    position: absolute;
+    top: 25px;
+    left: 65%;
+    transform: translateX(33%, 0);
+    width: 331.72px;
+    height: 122.33px;
+    z-index: -1;
+}
+
+/* Estilos para el título */
+.titulo {
+    font-family: "DM Sans", Helvetica, sans-serif;;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    color: #212529;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Contenedor de opiniones en columnas */
+.contenedor-opiniones {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Opiniones individuales */
+.opinion {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la imagen en cada opinión */
+.opinion img {
+    width: 110px;
+    height: 107px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+/* Estilos para el texto de la opinión */
+.opinion-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para los comentarios */
+.comentario {
+    font-family: "DM Sans", Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(21, 20, 57, 0.6);
+    margin-bottom: 10px;
+}
+
+/* Estilos para los nombres */
+.nombre {
+    font-family: "DM Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: #1E0E62;
+}
+
+/* Ajuste para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .contenedor-opiniones {
+        flex-direction: column;
+    }
+    .opinion {
+        justify-content: center;
+    }
+}
